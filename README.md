@@ -25,27 +25,33 @@ The first step in EDA involves importing essential libraries to facilitate data 
 
 Pandas: Used for data handling and analysis.
 Matplotlib and Seaborn: Libraries for creating visualizations to aid in understanding the data.
+
 2. Loading Data
 In this step, the document demonstrates how to load datasets:
 
 Two CSV files, client_data.csv and price_data.csv, are loaded into Pandas DataFrames. This enables the user to manipulate and analyze the data using Python.
+
 3. Descriptive Statistics of Data
 Understanding the structure and types of data is crucial:
 
 Data Types: The document emphasizes examining the data types of each column. This helps determine how to process the data (e.g., numeric vs. categorical).
 Basic Statistics: EDA includes generating descriptive statistics (like mean, median, min, max) to summarize the data's central tendencies and variability.
+
 4. Data Visualization
 Visualization is a key component of EDA:
 
 Plots created with Matplotlib and Seaborn allow analysts to visually explore relationships, distributions, and trends within the data. For instance, checking for outliers or patterns that may inform further analysis.
+
 5. Data Inspection
 The document suggests inspecting the first few rows of the loaded DataFrames:
 
 Viewing the first few entries of client_df and price_df helps analysts understand the data structure and content. It highlights the mix of numeric and categorical data in the client data and the prevalence of zeros in the price data.
+
 6. Identifying Data Quality Issues
 Through EDA, analysts can identify potential data quality issues:
 
 The document notes that datetime columns are not in the correct format, indicating a need for conversion before further analysis.
+
 7. Summary Statistics
 The document emphasizes the importance of summary statistics:
 
