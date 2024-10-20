@@ -1,5 +1,7 @@
 # EDA
 Getting set up - This task is focused on exploratory data analysis of the client and price data provided.
+
+
 The visualization provided by Estelle shows how many companies churned vs. how many companies did not churn. We can see from this that the churn rate is approximately 10%. This is actually a very good churn rate, the closer the rate is to 0%, the better.
 The next series of visualizations were created in an attempt to try and dive deeper into how churn changes based on other factors (using other columns). This is useful for us to investigate because it may help us to understand factors that drive churn.
 In the notebook we visualize churn vs. sales channel, contract type, number of products, number of years and origin/contract offer.
